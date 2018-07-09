@@ -1,0 +1,12 @@
+#关于文字样式的学习
+  1.字体可写多种，用 逗号 隔开 
+    p {
+      font-family: "Trebuchet MS", Verdana, sans-serif;
+    }
+  2.文字大小
+    px和em和rem，px为固定大小，
+    1em则等于父元素设置的字体大小，em存在除不净的问题，而且和父元素挂钩，容易混乱
+    1em则等HTML根元素设置的字体大小，可以将HTML字体设为10px，方便换算
+  3.text-shadow:文字阴影，老是忘记的一个样式
+#CSS是如何工作的
+  HTML和CSS是分别渲染DOM的
